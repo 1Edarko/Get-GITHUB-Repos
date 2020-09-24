@@ -1,0 +1,77 @@
+body{
+font-family: 'Varela Round', sans-serif;}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.git-container{
+
+margin: 50px auto;
+width: 800px;
+background-color: #bbbbbb4d;
+border-radius: 10px;
+
+}
+.git-container .repos{
+    display: flex;
+    padding: 20px;
+}
+.git-container .repos input {
+    width: 90%;
+    height : 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    padding: 20px;
+    font-family:  'Varela Round', sans-serif;
+
+}
+.git-container .repos input:focus{
+  outline-color: #f83224;
+
+
+}
+.get{
+    background-color: #f83224;
+    color: white;
+    margin-left: 8px;
+    font-family:  'Varela Round', sans-serif;
+    border: none;
+    font-size: 17px;
+    width : 100px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Data{
+    background-color: #9494944d;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.alert{
+    color: rgb(245, 60, 60);
+    font-weight: bold;
+}
+
+.Data .data-box{
+    background-color: white;
+    padding: 15px;
+}
+.Data .data-box:not(:last-child){
+    margin-bottom :5px;
+}
+.visit , a{
+    float: right;
+     background-color: #f83224;
+     width: 100px;
+     height: 30px;
+     text-decoration: none;
+     color: white;
+    text-align: center;
+    font-weight: bold; 
+    border-radius: 5px;}
+    a{
+        padding: 5px;
+    }
